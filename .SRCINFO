@@ -1,0 +1,14 @@
+pkgbase = kubectl-crossplane-bin
+	pkgdesc = Crossplane (https://crossplane.io/) CLI extension for kubectl.
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://github.com/crossplane/crossplane-cli
+	arch = x86_64
+	license = Apache
+	depends = kubectl
+	conflicts = kubectl-crossplane-git
+	source = kubectl-crossplane-bin-1.1.1::https://releases.crossplane.io/stable/v1.1.1/bin/linux_amd64/crossplane
+	sha256sums = ef2c7f8e63e5e56ae4a6db81cb0ffa19300280a728c6c2b400171e924460c5ca
+
+pkgname = kubectl-crossplane-bin
+
